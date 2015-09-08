@@ -1,0 +1,9 @@
+1,present value 计算
+
+facevalue = 1000;
+payment=0.05 * facevalue;
+rate=0.06;
+extrapayment=facevalue;
+numperiods=10;
+due=0;
+presentval = pvfix(rate,numperiods,payment,extrapayment,due)
